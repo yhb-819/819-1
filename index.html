@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>杨皓博 - 个人简历</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #f0f4f8 0%, #e8edf5 100%);
+      color: #333;
+      line-height: 1.8;
+      padding: 30px 15px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 50px 45px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(30, 60, 100, 0.12);
+    }
+    /* 标题美化 */
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      background: linear-gradient(90deg, #165DFF, #36CFC9);
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #e5e9f2;
+    }
+    h2 {
+      font-size: 22px;
+      color: #165DFF;
+      margin: 35px 0 18px;
+      border-left: 5px solid #36CFC9;
+      padding-left: 14px;
+      background: #f7fafe;
+      line-height: 1.4;
+      border-radius: 0 6px 6px 0;
+    }
+    h3 {
+      font-size: 18px;
+      color: #233455;
+      margin-bottom: 6px;
+    }
+    p, li {
+      font-size: 15px;
+      color: #444;
+    }
+    ul {
+      padding-left: 22px;
+      margin-top: 8px;
+    }
+    .info-card {
+      background: #f7fafe;
+      padding: 18px 22px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    .info-line {
+      font-size: 15px;
+      margin: 6px 0;
+    }
+    /* 技能表格美化 */
+    .skill-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .skill-table th, .skill-table td {
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 14px;
+      border: none;
+    }
+    .skill-table th {
+      background: linear-gradient(90deg, #165DFF, #36CFC9);
+      color: #fff;
+      width: 130px;
+    }
+    .skill-table tr:nth-child(even) {
+      background: #f7fafe;
+    }
+    /* 项目卡片 */
+    .project-item {
+      background: #fafbfd;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+      transition: all 0.3s ease;
+      border: 1px solid #edf2f9;
+    }
+    .project-item:hover {
+      box-shadow: 0 5px 20px rgba(22, 93, 255, 0.08);
+      transform: translateY(-3px);
+    }
+    .project-time {
+      color: #66789c;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: #165DFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* 自适应手机 */
+    @media (max-width: 768px) {
+      .container {
+        padding: 25px 20px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .skill-table th {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <h1>杨皓博 · 个人简历</h1>
+
+  <!-- 一、基本信息 -->
+  <div class="section">
+    <h2>一、基本信息</h2>
+    <div class="info-card">
+      <p class="info-line">姓名：杨皓博 &nbsp;&nbsp; 性别：男 &nbsp;&nbsp; 年龄：21</p>
+      <p class="info-line">电话：<a href="tel:15998539533">15998539533</a></p>
+      <p class="info-line">邮箱：<a href="mailto:3192137191@qq.com">3192137191@qq.com</a></p>
+      <p class="info-line"><strong>求职意向：</strong>全栈开发工程师 / AI应用开发工程师 / 前端开发工程师</p>
+    </div>
+  </div>
+
+  <!-- 二、教育背景 -->
+  <div class="section">
+    <h2>二、教育背景</h2>
+    <div class="info-card">
+      <p><strong>大连东软信息学院</strong> &nbsp; 计算机科学与技术专业 &nbsp; 本科 &nbsp; 2021.09 - 2025.06</p>
+      <p style="margin-top:8px;"><strong>核心课程：</strong>数据结构、Java/Python/C语言、数据库、计算机网络、OpenHarmony开发、互联网应用开发技术、高级网页设计、Web架构</p>
+      <p style="margin-top:8px;"><strong>GPA：</strong>3.6/4.0，专业排名前15%</p>
+      <p style="margin-top:8px;"><strong>荣誉奖项：</strong>校级二等奖学金（2022-2023）、三等奖学金（2023-2024）、优秀学生干部、创新创业先进个人</p>
+    </div>
+  </div>
+
+  <!-- 三、专业技能 -->
+  <div class="section">
+    <h2>三、专业技能</h2>
+    <table class="skill-table">
+      <tr>
+        <th>技术分类</th>
+        <th>技术栈</th>
+      </tr>
+      <tr>
+        <td>前端开发</td>
+        <td>HTML5/CSS3/JavaScript/TypeScript/ES6、Vue3+Pinia+ElementPlus/Vant、React、Electron、Uniapp小程序、Nuxt、数据大屏、ECharts/DataV/G6/D3.js/Three.js/Mermaid/SVG/Canvas、json-server Mock</td>
+      </tr>
+      <tr>
+        <td>AI与知识库</td>
+        <td>CodeBuddy、Trae、Claude Code、Skill、MCP；LangChain、RAG知识库开发、AI原型设计</td>
+      </tr>
+      <tr>
+        <td>后端框架</td>
+        <td>Spring Boot、MyBatis/MyBatis-Plus、Koa2、Express、REST API</td>
+      </tr>
+      <tr>
+        <td>数据库工具</td>
+        <td>MySQL、Redis、MySQL Workbench</td>
+      </tr>
+      <tr>
+        <td>移动端</td>
+        <td>OpenHarmony鸿蒙(ArkTS)、Android Java</td>
+      </tr>
+      <tr>
+        <td>工程化部署</td>
+        <td>Git(GitHub/Gitee)、Docker、调试排错、全栈项目部署</td>
+      </tr>
+    </table>
+    <p style="margin-top:15px;padding:0 5px;">
+      <strong>软实力：</strong>学习能力强、快速上手AI与可视化前沿技术，熟练使用AI工具辅助开发，重视工程化规范与最佳实践。
+    </p>
+  </div>
+
+  <!-- 四、项目经历 -->
+  <div class="section">
+    <h2>四、项目经历</h2>
+
+    <div class="project-item">
+      <h3>1. 智能知识库问答助手（AI + 全栈）</h3>
+      <div class="project-time">2024.09 - 至今 &nbsp;｜&nbsp; 技术栈：LangChain + Koa2 + MySQL + Redis + Vue3 + G6/Three.js</div>
+      <ul>
+        <li>基于LangChain搭建RAG知识库，支持文档上传、文本切片、向量检索，对接大模型实现智能问答。</li>
+        <li>后端Koa2搭建RESTful API，Redis缓存高频问答，提升响应速度。</li>
+        <li>前端Vue3开发对话界面，G6绘制知识图谱、Three.js实现3D节点关系可视化。</li>
+        <li>使用json-server模拟接口，快速完成前后端并行开发与联调。</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <h3>2. 智慧校园数据大屏系统（全栈 + 数据可视化）</h3>
+      <div class="project-time">2024.07 - 2024.10 &nbsp;｜&nbsp; 技术栈：Spring Boot + MyBatis-Plus + MySQL + Redis + Vue3 + ECharts/DataV/G6/D3</div>
+      <ul>
+        <li>后端基于Spring Boot + MyBatis-Plus开发业务接口，Redis缓存热点统计数据。</li>
+        <li>集成ECharts、DataV、G6、D3.js实现折线图、拓扑图、自定义关系网络图等大屏可视化。</li>
+        <li>使用MySQL Workbench完成数据库建模，json-server模拟设备数据源完成前期开发。</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <h3>3. 京东电商网站仿制 + 微信小程序</h3>
+      <div class="project-time">2024.02 - 2024.04 &nbsp;｜&nbsp; 技术栈：Vue3 + Pinia + TS + ElementPlus/Vant + Uniapp + Nuxt + Canvas/SVG</div>
+      <ul>
+        <li>复刻京东PC端与移动端页面，Uniapp跨端开发微信小程序，业务代码高度复用。</li>
+        <li>Canvas绘制商品热度雷达图，SVG实现优惠券动态进度条动画。</li>
+        <li>基于json-server搭建Mock服务，独立完成前后端数据交互模拟。</li>
+      </ul>
+    </div>
+
+    <div class="project-item">
+      <h3>4. OpenHarmony智能备忘录（鸿蒙原生应用）</h3>
+      <div class="project-time">2024.03 - 2024.06 &nbsp;｜&nbsp; 技术栈：OpenHarmony + ArkTS + Canvas + DevEco Studio</div>
+      <ul>
+        <li>采用ArkTS声明式开发，实现备忘录增删改查、分类标签、定时提醒完整功能。</li>
+        <li>接入Canvas实现手写涂鸦功能，支持笔记手绘备注。</li>
+        <li>课程优秀设计作品，具备鸿蒙原生开发与图形绘制实战能力。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 五、其他实践与成果 -->
+  <div class="section">
+    <h2>五、实践经历与个人成果</h2>
+    <div class="info-card">
+      <ul>
+        <li>担任班级学习委员，组织编程学习小组，推动班级专业通过率达98%。</li>
+        <li>SOVO大学生创业中心成员，参与项目孵化，牵头组织AI编程技术分享讲座。</li>
+        <li>个人开源：GitHub维护 AI-tools 仓库，收录LangChain示例、json-server模板、MCP实战代码。</li>
+        <li>坚持技术自学，持续跟进AI工程化、前端可视化前沿技术，注重项目落地与实战积累。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 六、自我评价 -->
+  <div class="section">
+    <h2>六、自我评价</h2>
+    <div class="info-card">
+      <p>大连东软信息学院计算机科班出身，拥有扎实的全栈开发功底与浓厚技术热情。熟练掌握Vue/React/Uniapp前端生态，精通数据大屏与多维可视化技术栈；具备LangChain+RAG知识库独立开发能力，善于利用AI工具提升开发效率。后端熟悉Spring Boot、Koa2及MySQL、Redis数据库开发。学习能力突出，乐于钻研前沿技术并落地实战，具备良好团队协作能力与问题排查能力，目标成长为业务扎实、可独立落地的全栈+AI复合型开发工程师。</p>
+    </div>
+  </div>
+
+  <!-- 七、作品链接 -->
+  <div class="section">
+    <h2>七、作品与开源链接</h2>
+    <div class="info-card">
+      <p>GitHub仓库：<a href="https://github.com/xxx" target="_blank">https://github.com/xxx</a></p>
+      <p style="margin-top:8px;">包含智能知识库、校园数据大屏、电商小程序、鸿蒙备忘录等全套源码及Mock示例</p>
+      <p style="margin-top:8px;">鸿蒙演示视频 / 数据大屏在线Demo（可自行补充地址）</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
