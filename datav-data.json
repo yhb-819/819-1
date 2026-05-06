@@ -1,0 +1,76 @@
+{
+  "stats": {
+    "totalUsers": 1258632,
+    "todayOrders": 3847,
+    "totalSales": 8526340,
+    "conversionRate": 4.82,
+    "totalStores": 528
+  },
+  "trends": {
+    "usersGrowth": 12.5,
+    "ordersGrowth": 8.3,
+    "salesGrowth": 15.2,
+    "conversionChange": -2.1
+  },
+  "ranking": [
+    { "rank": 1, "name": "iPhone 15 Pro Max", "sales": 2856, "amount": 2856000 },
+    { "rank": 2, "name": "华为 Mate 60 Pro", "sales": 2432, "amount": 2188800 },
+    { "rank": 3, "name": "小米 14 Ultra", "sales": 1987, "amount": 1589600 },
+    { "rank": 4, "name": "三星 S24 Ultra", "sales": 1654, "amount": 1819400 },
+    { "rank": 5, "name": "OPPO Find X7", "sales": 1289, "amount": 580050 },
+    { "rank": 6, "name": "vivo X100 Pro", "sales": 1156, "amount": 519200 },
+    { "rank": 7, "name": "荣耀 Magic6 Pro", "sales": 987, "amount": 444150 },
+    { "rank": 8, "name": "一加 12", "sales": 856, "amount": 385200 }
+  ],
+  "orders": [
+    { "id": "ORD20260428001", "product": "iPhone 15 Pro", "amount": 8999, "status": "已完成", "time": "10:32:15" },
+    { "id": "ORD20260428002", "product": "华为 Mate 60", "amount": 6999, "status": "处理中", "time": "10:31:48" },
+    { "id": "ORD20260428003", "product": "小米 14", "amount": 3999, "status": "待支付", "time": "10:31:22" },
+    { "id": "ORD20260428004", "product": "AirPods Pro", "amount": 1899, "status": "已发货", "time": "10:30:55" },
+    { "id": "ORD20260428005", "product": "MacBook Pro", "amount": 14999, "status": "已完成", "time": "10:30:30" },
+    { "id": "ORD20260428006", "product": "iPad Pro", "amount": 7999, "status": "处理中", "time": "10:29:58" },
+    { "id": "ORD20260428007", "product": "Apple Watch", "amount": 3199, "status": "待支付", "time": "10:29:33" },
+    { "id": "ORD20260428008", "product": "三星 S24", "amount": 5999, "status": "已发货", "time": "10:28:45" },
+    { "id": "ORD20260428009", "product": "OPPO Find X7", "amount": 3999, "status": "已完成", "time": "10:28:12" },
+    { "id": "ORD20260428010", "product": "vivo X100", "amount": 4499, "status": "处理中", "time": "10:27:38" }
+  ],
+  "cities": [
+    { "name": "北京", "value": 158, "position": { "left": "25%", "top": "20%" } },
+    { "name": "上海", "value": 142, "position": { "left": "35%", "top": "18%" } },
+    { "name": "广州", "value": 98, "position": { "left": "55%", "top": "35%" } },
+    { "name": "深圳", "value": 85, "position": { "left": "58%", "top": "40%" } },
+    { "name": "杭州", "value": 72, "position": { "left": "40%", "top": "45%" } },
+    { "name": "成都", "value": 65, "position": { "left": "35%", "top": "60%" } },
+    { "name": "武汉", "value": 58, "position": { "left": "48%", "top": "50%" } },
+    { "name": "南京", "value": 48, "position": { "left": "45%", "top": "42%" } }
+  ],
+  "salesTrend": [
+    { "time": "00:00", "销售额": 12, "订单量": 45 },
+    { "time": "04:00", "销售额": 8, "订单量": 32 },
+    { "time": "08:00", "销售额": 35, "订单量": 128 },
+    { "time": "12:00", "销售额": 52, "订单量": 195 },
+    { "time": "16:00", "销售额": 68, "订单量": 248 },
+    { "time": "20:00", "销售额": 72, "订单量": 265 },
+    { "time": "24:00", "销售额": 45, "订单量": 165 }
+  ],
+  "regionSales": [
+    { "name": "华东地区", "value": 35 },
+    { "name": "华南地区", "value": 28 },
+    { "name": "华北地区", "value": 22 },
+    { "name": "西南地区", "value": 10 },
+    { "name": "其他地区", "value": 5 }
+  ],
+  "regionRanking": [
+    { "name": "华东地区", "value": 35 },
+    { "name": "华南地区", "value": 28 },
+    { "name": "华北地区", "value": 22 },
+    { "name": "西南地区", "value": 10 },
+    { "name": "华中地区", "value": 5 }
+  ],
+  "alerts": [
+    { "icon": "⚠️", "title": "库存预警：iPhone 15 Pro库存不足", "level": "warning", "time": "10:25" },
+    { "icon": "🔴", "title": "系统异常：北京服务器响应延迟", "level": "error", "time": "10:22" },
+    { "icon": "🟢", "title": "订单激增：当前订单量超过预警阈值", "level": "info", "time": "10:18" },
+    { "icon": "⚠️", "title": "物流提醒：广州仓库发货延迟", "level": "warning", "time": "10:15" }
+  ]
+}
